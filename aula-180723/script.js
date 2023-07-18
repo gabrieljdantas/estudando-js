@@ -22,3 +22,11 @@ console.log(paragrafo.innerText)
 paragrafo.innerHTML = "Hoje na aula de JavaScript conversamos sobre DOM"
 console.log(paragrafo.innerHTML)
 console.log(negritosParagrafos)
+
+
+//Uso de classes com JS
+
+let caixa = document.querySelector("#informe");
+caixa.classList.add("erro");
+
+console.log(caixa)
