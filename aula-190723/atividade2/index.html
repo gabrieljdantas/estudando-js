@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aplicativo de Tarefas</title>
+        <style>
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid black;
+                padding: 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Aplicativo de Tarefas</h1>
+
+        <input type="text" id="descricao" placeholder="Descrição da tarefa" />
+        <input type="text" id="prioridade" placeholder="Prioridade" />
+        <input type="date" id="prazo" />
+        <button onclick="adicionarTarefa()">Adicionar Tarefa</button>
+
+        <table id="tabelaTarefas">
+            <tr>
+                <th>Descrição</th>
+                <th>Prioridade</th>
+                <th>Status</th>
+                <th>Prazo</th>
+                <th>Ações</th>
+            </tr>
+        </table>
+
+        <script src="script.js">
+        </script>
+    </body>
+</html>
